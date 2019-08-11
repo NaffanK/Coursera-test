@@ -1,0 +1,61 @@
+body {
+	font-size: 16px;
+	font-family: Verdana, serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #808080;
+	border-radius: 0;
+	border: 2px solid black;
+	padding: 5px;
+	margin-bottom: 0;
+}
+
+#header{
+	margin-left: 15px;
+}
+
+.navbar-brand {
+	margin-bottom: 10px;
+}
+
+.navbar-brand h1 { /*Main Header */
+	font-family: 'Verdana', serif;
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: -20px;
+	line-height: .75;
+}
+
+#nav-list {
+	background-color: white;
+	margin-top: 0;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+
+
+#nav-list li{
+	text-align: center;
+	font-family: Verdana;
+	font-size: 1.0em;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+}
+
+#collapsable-nav {
+	border-top: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* END HEADER */
