@@ -5,7 +5,7 @@ body {
 
 /** HEADER **/
 #header-nav {
-	background-color: #808080;
+	background-color: #C0C0C0;
 	border-radius: 0;
 	border: 2px solid black;
 	padding: 5px;
@@ -38,6 +38,9 @@ body {
 	border-left: 2px solid black;
 }
 
+#nav-list li:hover {
+	background: #E7E7E7;
+}
 
 #nav-list li{
 	text-align: center;
@@ -59,3 +62,38 @@ body {
 }
 
 /* END HEADER */
+
+/* BODY */
+
+h2 {
+	color: black;
+	margin-bottom: 30px;
+}
+
+#main-content {
+	margin: auto;
+
+}
+#one-section {
+	background-color: #C0C0C0;
+	height: 1000px;
+}
+
+#Chicken h3 {
+	font-weight: bold;
+	font-size: 1.0em;
+	padding-bottom: 5px;
+	color: black;
+}
+
+#Chicken p {
+	color: black;
+	font-size: 0.9em;
+}
+
+@media (max-width: 767px) {
+  #main-content {
+  	margin-left: 20px;
+  	margin-right: 20px;
+  }
+  
